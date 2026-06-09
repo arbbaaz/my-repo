@@ -1,1 +1,0 @@
-Design an app and a responsive website for a bank that help customers select, set up, and manage a personal bank account without visiting in person.
