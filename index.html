@@ -1,0 +1,180 @@
+<!doctype html>
+ <html lang="en">
+ <head>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width,initial
+scale=1" />
+ <title>Arbaz raza khan— Portfolio</title>
+ <link
+ href="https://fonts.googleapis.com/css2?family=Poppins:wght@40
+ 0;500;600;700&display=swap" rel="stylesheet">
+ <style>
+ :root {--bg-overlay: rgba(15, 23, 36, 0.8);--card: rgba(255, 255, 255, 0.08);--muted: #94a3b8;--accent: #00bcd4;--text: #e6eef6;--transition: all 0.3s ease-in-out;
+ }
+ * {box-sizing: border-box; margin: 0; padding: 0;}
+ body {
+ font-family: 'Poppins', sans-serif;
+ background: var(--bg-overlay),
+ url('https://images.unsplash.com/photo-153743237676900aabc1b1b5a?auto=format&fit=crop&w=1920&q=80') 
+
+ no-repeat center center fixed;
+ background-size: cover;
+ color: var(--text);
+ overflow-x: hidden;
+ }
+ body::before
+ { content: '';
+ position: fixed;
+ inset: 0;
+ background: var(--bg-overlay);
+ z-index:-1;
+ }
+header {text-align: center; padding: 80px 20px;}
+ .avatar {width: 130px; height: 130px; border-radius: 50%;
+ background: linear-gradient(135deg, var(--accent), #7c3aed);
+ display: flex; align-items: center; justify-content:
+ center; font-weight: bold; font-size: 36px; margin: 0 auto
+ 20px;
+ box-shadow: 0 0 25px var(--accent); transition: var(--
+ transition);}
+ .avatar:hover {transform: rotate(10deg) scale(1.1);}
+ header h1 {font-size: 42px; margin-bottom: 8px;}
+ header p {color: var(--muted);}
+ nav {display: flex; justify-content: center; gap: 25px;
+ margin-top: 20px;}
+ nav a {color: var(--accent); text-decoration: none; font
+ nav a {
+	color: var(--accent); 
+	text-decoration: none; 
+	font-weight: 600; 
+	position: relative; 
+	transition: var(--transition);
+ }
+ height: 3px; background: var(--accent); left: 0; bottom:-5px;
+ transition: width 0.3s;}
+ section {
+	background: var(--card); 
+	padding: 30px; 
+	border-radius: 20px; 
+	backdrop-filter: blur(10px);
+	box-shadow: 0 10px 25px rgba(0,0,0,0.3); 
+	transition: var(--transition);
+ }
+ section:hover {transform: translateY(-10px); box-shadow: 0
+ 20px 40px rgba(0,0,0,0.5);}
+ h2 {color: var(--accent); margin-bottom: 15px; font-size:
+ 26px; border-bottom: 2px solid var(--accent); display: inline
+block; padding-bottom: 5px;}
+ .btn {display: inline-block; padding: 10px 20px;
+ background: var(--accent); color: #000; font-weight: 600;
+ border-radius: 8px; text-decoration: none; transition:
+ var(--transition); margin-top: 10px;}
+ .btn:hover {background: #02c5de; transform: scale(1.05);}
+.skills, .chips {display: flex; flex-wrap: wrap; gap:
+ 10px;}
+ .skill, .chip {background: rgba(255,255,255,0.1); padding:
+ 10px 16px; border-radius: 20px; font-size: 14px;
+ transition: var(--transition); cursor: default;}
+ .skill:hover, .chip:hover {background: var(--accent);
+ color: #000; transform: scale(1.1);}
+ footer {text-align: center; color: var(--muted); margin:
+ 50px 0;}
+ @keyframes fadeIn {from {opacity: 0; transform:
+ translateY(30px);} to {opacity: 1; transform: translateY(0);}}
+ .fade-in {animation: fadeIn 1s ease forwards;}
+ </style>
+ </head>
+ <body>
+ <header>
+ <div class="avatar">ARZ</div>
+ <h1>Arbaz Raza Khan</h1>
+ <p>CSE-AI Student | MERN Stack Developer | Sudent</p>
+ <nav>
+ <a href="#about">About</a>
+ <a href="#experience">Experience</a>
+ <a href="#skills">Skills</a>
+ <a href="#education">Education</a>
+ <a href="#contact">Contact</a>
+ </nav>
+ </header>
+ <main>
+ <section id="about" class="fade-in">
+ <h2>About Me</h2>
+ <p>I’m a passionate Full Stack Developer and  based in Greater noida. I love building
+ creative, responsive web experiences using React, Node.js, and
+ MongoDB, and turning ideas into impactful
+ projects.</p>
+ <a href="Arbaz raza khan(1).pdf" class="btn"
+ download>Download Resume</a>
+ </section>
+<section id="experience" class="fade-in">
+ <h2>Experience</h2>
+ <div class="card">
+ <!-- <p><strong> Student </strong> — IIMT College
+ of Engineering (2024-2028)</p> -->
+ </div>
+ <div class="card">
+ <p><strong>Language</strong> — HTML,CSS,JS</p>
+ </div>
+ <div class="card">
+ <p><strong>Web Developer Intern</strong> — DeepNap
+ Softech (2023)</p>
+ </div>
+ <div class="card">
+ <p><strong>Web Developer Intern</strong> — Softfix (2024)</p>
+ </div>
+ </section>
+ <section id="skills" class="fade-in">
+ <h2>Skills</h2>
+ <div class="skills">
+ <span class="skill">HTML</span><span
+ class="skill">CSS</span><span class="skill">JavaScript</span>
+ <span class="skill">React</span><span
+ class="skill">Node.js</span><span class="skill">MongoDB</span>
+ <span class="skill">Express</span><span
+ class="skill">MySQL</span><span class="skill">C/C++</span>
+ <span class="skill">Python</span><span
+ class="skill">WordPress</span>
+ </div>
+ </section>
+ <section id="education" class="fade-in">
+ <h2>Education</h2>
+ <p><strong>
+    B-tech (CSE-Ai)</strong> — IIMT College Of Engineering,
+ Greater noida,UP (2024–2028)</p>
+
+
+ </section>
+<section id="contact" class="fade-in">
+ <h2>Contact</h2>
+ <p> Greater noida</p>
+ <p> <a href="mailto:arbazk0372@gmail.com"
+ style="color: var(--accent)">arbazk0372@gmail.com</a></p>
+ <p> <a href="https://www.linkedin.com/in/arbaz-khan-8499a732a/" target="_blank" style="color: var(--accent)">LinkedIn
+ Profile</a></p>
+ </section>
+ </main>
+ <footer>
+ © 2025 Arbaz raza khan | Designed with using HTML, CSS, and
+ JS
+ </footer>
+ <script>
+ document.querySelectorAll('nav a').forEach(link =>
+ { link.addEventListener('click', e =>
+ { e.preventDefault();
+ document.querySelector(link.getAttribute('href')).scro
+ llIntoView({behavior: 'smooth'});
+ });
+ });
+ const sections = document.querySelectorAll('.fade-in');
+ const observer = new IntersectionObserver(entries => {
+ entries.forEach(entry =>
+ { if
+ (entry.isIntersecting)
+ entry.target.classList.add('visible');
+ });
+ }, {threshold: 0.2});
+ sections.forEach(sec => observer.observe(sec));
+ </script>
+ </body>
+ </html>
